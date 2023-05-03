@@ -1,0 +1,6 @@
+var path = require('path');
+
+module.exports = {
+  'config': path.resolve('app', 'lib', 'db-cli.js'),
+  'models-path': path.resolve('app', 'models')
+};
